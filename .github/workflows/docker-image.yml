@@ -8,7 +8,7 @@ jobs:
 
   build:
     env: 
-      IDENTIFICACAO_ALUNO: aluno30 
+      IDENTIFICACAO_ALUNO: aluno30
       DIRETORIO_WEBAPP: SiteContagem
     runs-on: ubuntu-latest
 
