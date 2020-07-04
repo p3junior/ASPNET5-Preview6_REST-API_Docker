@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Docker Login - Docker Hub
+    - name: Docker Login  - Docker Hub
       uses: Azure/docker-login@v1
       with:
         username: ${{ secrets.DOCKER_USERNAME }}
